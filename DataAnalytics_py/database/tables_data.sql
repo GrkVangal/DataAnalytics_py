@@ -1,0 +1,245 @@
+USE project_py;
+SELECT * FROM students
+
+INSERT INTO students (name, department) VALUES
+('John Smith', 'Computer Science'),
+('Maria Johnson', 'Mathematics'),
+('Nick Brown', 'Physics'),
+('Anna Davis', 'Computer Science'),
+('George Wilson', 'Mathematics'),
+('Helen Moore', 'Physics'),
+('Chris Taylor', 'Computer Science'),
+('Sophia Anderson', 'Biology'),
+('James Thomas', 'Chemistry'),
+('Emma Jackson', 'Engineering'),
+('Daniel White', 'Computer Science'),
+('Olivia Harris', 'Mathematics'),
+('Michael Martin', 'Physics'),
+('Isabella Thompson', 'Engineering'),
+('David Garcia', 'Biology'),
+('Mia Martinez', 'Chemistry'),
+('Joseph Robinson', 'Computer Science'),
+('Charlotte Clark', 'Physics'),
+('Matthew Rodriguez', 'Engineering'),
+('Amelia Lewis', 'Mathematics'),
+('Andrew Lee', 'Computer Science'),
+('Evelyn Walker', 'Biology'),
+('Joshua Hall', 'Physics'),
+('Harper Allen', 'Chemistry'),
+('Ryan Young', 'Engineering'),
+('Abigail Hernandez', 'Computer Science'),
+('Nathan King', 'Mathematics'),
+('Emily Wright', 'Physics'),
+('Alexander Lopez', 'Biology'),
+('Elizabeth Hill', 'Engineering'),
+('Christopher Scott', 'Computer Science'),
+('Sofia Green', 'Chemistry'),
+('Anthony Adams', 'Physics'),
+('Avery Baker', 'Mathematics'),
+('Gabriel Nelson', 'Engineering'),
+('Ella Carter', 'Biology'),
+('Jacob Mitchell', 'Computer Science'),
+('Scarlett Perez', 'Chemistry'),
+('Logan Roberts', 'Physics'),
+('Grace Turner', 'Engineering'),
+('Benjamin Phillips', 'Computer Science'),
+('Chloe Campbell', 'Mathematics'),
+('Samuel Parker', 'Biology'),
+('Victoria Evans', 'Engineering'),
+('Henry Edwards', 'Computer Science'),
+('Lily Collins', 'Physics'),
+('Jack Stewart', 'Mathematics'),
+('Aria Sanchez', 'Biology'),
+('Sebastian Morris', 'Engineering'),
+('Zoe Rogers', 'Computer Science');
+
+
+
+
+
+
+INSERT INTO grades (student_id, course, grade) VALUES
+(1, 'Python', 8.5),
+(1, 'Databases', 7.2),
+(2, 'Calculus', 9.1),
+(2, 'Statistics', 8.7),
+(3, 'Quantum Physics', 6.4),
+(3, 'Mechanics', 7.1),
+(4, 'Python', 9.5),
+(4, 'Algorithms', 8.9),
+(5, 'Linear Algebra', 7.8),
+(5, 'Statistics', 8.1),
+(6, 'Thermodynamics', 6.9),
+(6, 'Physics Lab', 7.4),
+(7, 'AI Fundamentals', 9.0),
+(7, 'Machine Learning', 8.8),
+(8, 'Biology I', 7.2),
+(8, 'Genetics', 8.0),
+(9, 'Organic Chemistry', 6.5),
+(9, 'Analytical Chemistry', 7.3),
+(10, 'Engineering Math', 8.4),
+(10, 'Circuits', 7.9),
+(11, 'Databases', 8.7),
+(11, 'Networks', 8.2),
+(12, 'Statistics', 9.2),
+(12, 'Calculus', 8.8),
+(13, 'Quantum Physics', 5.9),
+(13, 'Mechanics', 6.8),
+(14, 'Electronics', 7.7),
+(14, 'Engineering Design', 8.1),
+(15, 'Microbiology', 7.4),
+(15, 'Biochemistry', 8.0),
+(16, 'Organic Chemistry', 6.8),
+(16, 'Chemistry Lab', 7.5),
+(17, 'Machine Learning', 9.4),
+(17, 'Python', 9.0),
+(18, 'Physics Lab', 7.0),
+(18, 'Astronomy', 8.1),
+(19, 'Circuits', 8.5),
+(19, 'Robotics', 8.9),
+(20, 'Linear Algebra', 8.3),
+(20, 'Probability', 7.9),
+(21, 'Cybersecurity', 9.1),
+(21, 'Operating Systems', 8.7),
+(22, 'Ecology', 7.5),
+(22, 'Biology II', 8.2),
+(23, 'Thermodynamics', 6.7),
+(23, 'Optics', 7.0),
+(24, 'Physical Chemistry', 7.8),
+(24, 'Statistics', 8.0),
+(25, 'Engineering Math', 8.6),
+(25, 'Mechanics', 8.3),
+(26, 'AI Fundamentals', 9.3),
+(26, 'Python', 9.1),
+(27, 'Calculus', 8.4),
+(27, 'Statistics', 8.5),
+(28, 'Quantum Physics', 6.2),
+(28, 'Astronomy', 7.6),
+(29, 'Genetics', 8.1),
+(29, 'Biochemistry', 7.7),
+(30, 'Engineering Design', 8.9),
+(30, 'Electronics', 8.4),
+(31, 'Databases', 8.6),
+(31, 'Software Engineering', 9.0),
+(32, 'Organic Chemistry', 7.1),
+(32, 'Chemistry Lab', 7.8),
+(33, 'Mechanics', 6.5),
+(33, 'Physics Lab', 6.9),
+(34, 'Probability', 8.2),
+(34, 'Linear Algebra', 8.0),
+(35, 'Robotics', 9.1),
+(35, 'Circuits', 8.8),
+(36, 'Ecology', 7.3),
+(36, 'Microbiology', 7.9),
+(37, 'Algorithms', 8.9),
+(37, 'Operating Systems', 8.5),
+(38, 'Analytical Chemistry', 7.6),
+(38, 'Statistics', 7.9),
+(39, 'Quantum Physics', 6.7),
+(39, 'Optics', 7.2),
+(40, 'Engineering Math', 8.8),
+(40, 'Robotics', 9.0),
+(41, 'Machine Learning', 9.5),
+(41, 'AI Fundamentals', 9.2),
+(42, 'Calculus', 8.7),
+(42, 'Probability', 8.4),
+(43, 'Biology II', 7.8),
+(43, 'Genetics', 8.0),
+(44, 'Engineering Design', 8.6),
+(44, 'Electronics', 8.2),
+(45, 'Cybersecurity', 9.0),
+(45, 'Databases', 8.7),
+(46, 'Astronomy', 7.4),
+(46, 'Mechanics', 7.1),
+(47, 'Statistics', 8.9),
+(47, 'Linear Algebra', 8.5),
+(48, 'Microbiology', 7.6),
+(48, 'Ecology', 7.8),
+(49, 'Circuits', 8.3),
+(49, 'Engineering Math', 8.7),
+(50, 'Python', 9.2),
+(50, 'Software Engineering', 9.4);
+
+
+
+INSERT INTO ml_students (study_hours, absences, final_grade) VALUES
+(1.5, 15, 3.5),
+(2.0, 12, 4.0),
+(2.5, 10, 4.5),
+(3.0, 9, 5.0),
+(3.5, 8, 5.5),
+(4.0, 7, 6.0),
+(4.5, 6, 6.2),
+(5.0, 5, 6.5),
+(5.5, 4, 6.8),
+(6.0, 3, 7.0),
+(6.5, 2, 7.3),
+(7.0, 2, 7.5),
+(7.5, 1, 7.8),
+(8.0, 1, 8.0),
+(8.5, 0, 8.3),
+(9.0, 0, 8.5),
+(9.5, 0, 8.8),
+(10.0, 0, 9.0),
+(10.5, 0, 9.2),
+(11.0, 0, 9.5),
+(1.0, 18, 2.5),
+(2.2, 13, 4.2),
+(3.1, 11, 5.1),
+(4.3, 7, 6.1),
+(5.2, 5, 6.6),
+(6.4, 4, 7.2),
+(7.6, 2, 7.9),
+(8.1, 1, 8.1),
+(9.3, 0, 8.9),
+(10.2, 0, 9.1),
+(1.8, 14, 3.8),
+(2.7, 10, 4.8),
+(3.6, 8, 5.7),
+(4.8, 6, 6.4),
+(5.9, 5, 6.9),
+(6.8, 3, 7.4),
+(7.7, 2, 7.9),
+(8.6, 1, 8.4),
+(9.4, 0, 8.8),
+(10.7, 0, 9.4),
+(2.4, 12, 4.4),
+(3.8, 9, 5.8),
+(4.9, 7, 6.5),
+(5.7, 5, 6.8),
+(6.9, 3, 7.6),
+(7.8, 2, 8.0),
+(8.9, 1, 8.5),
+(9.8, 0, 9.0),
+(10.9, 0, 9.6),
+(11.5, 0, 9.8);
+
+
+SELECT * FROM students;
+SELECT * FROM grades;
+SELECT * FROM ml_students;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
